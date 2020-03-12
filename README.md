@@ -1,4 +1,4 @@
-# 接口由本地进行简历
+# 接口由本地进行搭建
 ## Project setup
 ```
 npm install
