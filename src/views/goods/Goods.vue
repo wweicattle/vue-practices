@@ -9,6 +9,7 @@
 
     <!-- 空白区域 -->
     <el-card>
+      <!-- 添加分类区域 -->
       <el-row>
         <el-col>
           <el-button type="primary" @click="addCate">添加分类</el-button>
@@ -86,6 +87,7 @@
         </span>
       </el-dialog>
     </el-card>
+    
   </div>
 </template>
 <script>

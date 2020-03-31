@@ -50,7 +50,7 @@
       </el-aside>
       <!--  侧边右区域-->
       <el-main>
-        <router-view></router-view>
+          <router-view></router-view>
       </el-main>
     </el-container>
   </el-container>
@@ -88,7 +88,7 @@ export default {
   methods: {
     // 获取菜单分类的数据
     async menus() {
-      let { data} = await menu("menus");
+      let { data } = await menu("menus");
       this.menulist = data.data;
       // 对图标进行唯一标识
       data.data.forEach((element, index) => {

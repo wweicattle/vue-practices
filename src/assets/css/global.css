@@ -28,6 +28,26 @@
     margin-top: 16px;
 }
 
-.el-cascader-panel{
+.el-cascader-panel {
     height: 200px;
+}
+
+.el-step {
+    margin: 15px 0;
+}
+
+.el-step__title {
+    font-size: 13px;
+}
+
+.el-checkbox {
+    margin: 0 15px 0 0 !important;
+}
+
+.currentPath {
+    width: 100%;
+}
+/* 富文本高度 */
+.ql-editor {
+    height:100px !important;
 }

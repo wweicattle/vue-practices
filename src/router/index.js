@@ -8,6 +8,12 @@ const powerlist = () => import("views/power/Powerlist");
 const roles = () => import("views/power/roleList");
 const goods = () => import("views/goods/Goods");
 const params = () => import("views/goods/Params");
+const goodList = () => import("views/goods/GoodList");
+const goodListAdd = () => import("views/goods/GoodListAdd");
+const order = () => import("views/order/Order");
+
+
+
 
 
 
@@ -45,11 +51,22 @@ const routes = [
     {
       path: "/categories",
       component: goods
-    },{
-      path:"/params",
-      component:params
+    }, {
+      path: "/params",
+      component: params
+    }, {
+      path: "/goods",
+      component: goodList,
+    },
+    {
+      path: "/goods/add",
+      component: goodListAdd
+    },
+    {
+      path: "/orders",
+      component: order
     }
-    
+
     ]
   },
 

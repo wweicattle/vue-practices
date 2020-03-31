@@ -5,7 +5,10 @@
 <script>
 export default {
   name: "app",
-  components: {}
+  components: {},
+  created(){
+    console.log(this);
+  }
 };
 </script>
 
