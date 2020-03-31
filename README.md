@@ -1,12 +1,15 @@
-前言  
+# 前言  
 这是一款以电商项目类型进行开发，本地接口与sql文件都以上传其**仓库**中，可立即拉取进行本地测试。  
 
 ## 技术栈
 element-ui + vue-router + webpack + axios  
 
-# 项目执行
+## 项目执行
 项目效果：
-
+![1](https://github.com/wweicattle/vue-practices/blob/master/src/assets/img/1.png)
+![2](https://github.com/wweicattle/vue-practices/blob/master/src/assets/img/2.png)
+![3](https://github.com/wweicattle/vue-practices/blob/master/src/assets/img/3.png)
+![4](https://github.com/wweicattle/vue-practices/blob/master/src/assets/img/4.png)
 
 
 ## Project setup
